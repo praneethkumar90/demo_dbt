@@ -1,0 +1,26 @@
+
+
+============================== 2023-02-09 03:20:03.362930 | b2448c2f-4786-47c0-a27b-c315402aa1e9 ==============================
+[0m03:20:03.362930 [info ] [MainThread]: Running with dbt=1.4.1
+[0m03:20:03.364958 [debug] [MainThread]: running dbt with arguments {'write_json': True, 'use_colors': True, 'printer_width': 80, 'version_check': True, 'partial_parse': True, 'static_parser': True, 'profiles_dir': '/home/praneeth/.dbt', 'send_anonymous_usage_stats': True, 'quiet': False, 'no_print': False, 'cache_selected_only': False, 'project_name': 'demo_dbt', 'skip_profile_setup': False, 'which': 'init', 'indirect_selection': 'eager'}
+[0m03:20:03.365310 [debug] [MainThread]: Tracking: tracking
+[0m03:20:03.379774 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ece32ffa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ece32fe80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ece32fb20>]}
+[0m03:20:03.381367 [debug] [MainThread]: Starter project path: /home/praneeth/vm_dbt_package/lib/python3.8/site-packages/dbt/include/starter_project
+[0m03:20:12.662262 [info ] [MainThread]: 
+Your new dbt project "demo_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:20:12.663115 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ece32fb20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ece32fd00>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f7ece32f9a0>]}
+[0m03:20:12.663633 [debug] [MainThread]: Flushing usage events
